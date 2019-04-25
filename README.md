@@ -3,7 +3,7 @@
   <a href="https://github.com/salomonelli/best-resume-ever">
   <img src="src/assets/logo.png" alt="Markdownify" width="200"></a>
   <br>
-  best-resume-ever
+  GALLERY
   <br>
 </h1>
 
@@ -95,11 +95,6 @@ This project uses several open source packages:
 
 ---
 
-> [sarasteiert.com](https://www.sarasteiert.com) &nbsp;&middot;&nbsp;
-> GitHub [@salomonelli](https://github.com/salomonelli) &nbsp;&middot;&nbsp;
-> Twitter [@salomonelli](https://twitter.com/salomonelli)
-
-
 ## License
 
-[MIT](https://github.com/salomonelli/best-resume-ever/blob/master/LICENCE.md)
+MIT

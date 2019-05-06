@@ -34,7 +34,7 @@
       <router-link v-bind:to="'/resume/pwasample'">
         <div class="preview-wrapper">
           <img src="../assets/preview/pwasample.png" />
-          <span>Custom Content</span>
+          <span>Content</span>
         </div>
       </router-link>
     </div>
@@ -75,6 +75,62 @@
         <div class="preview-wrapper">
           <img src="../assets/preview/pwasample.png" />
           <span>Previews</span>
+        </div>
+      </router-link>
+    </div>
+    <div class="preview">
+      <router-link v-bind:to="'/resume/pwasample'">
+        <div class="preview-wrapper">
+          <img src="../assets/preview/pwasample.png" />
+          <span>Dash Board</span>
+        </div>
+      </router-link>
+    </div>
+    <div class="preview">
+      <router-link v-bind:to="'/resume/pwasample'">
+        <div class="preview-wrapper">
+          <img src="../assets/preview/pwasample.png" />
+          <span>Alerts</span>
+        </div>
+      </router-link>
+    </div>
+    <div class="preview">
+      <router-link v-bind:to="'/resume/pwasample'">
+        <div class="preview-wrapper">
+          <img src="../assets/preview/pwasample.png" />
+          <span>Chat</span>
+        </div>
+      </router-link>
+    </div>
+    <div class="preview">
+      <router-link v-bind:to="'/resume/pwasample'">
+        <div class="preview-wrapper">
+          <img src="../assets/preview/pwasample.png" />
+          <span>Logistics</span>
+        </div>
+      </router-link>
+    </div>
+    <div class="preview">
+      <router-link v-bind:to="'/resume/pwasample'">
+        <div class="preview-wrapper">
+          <img src="../assets/preview/pwasample.png" />
+          <span>Inventory</span>
+        </div>
+      </router-link>
+    </div>
+    <div class="preview">
+      <router-link v-bind:to="'/resume/pwasample'">
+        <div class="preview-wrapper">
+          <img src="../assets/preview/pwasample.png" />
+          <span>Sales Ops</span>
+        </div>
+      </router-link>
+    </div>
+    <div class="preview">
+      <router-link v-bind:to="'/resume/pwasample'">
+        <div class="preview-wrapper">
+          <img src="../assets/preview/pwasample.png" />
+          <span>Customer App</span>
         </div>
       </router-link>
     </div>

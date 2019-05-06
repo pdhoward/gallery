@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
   <a href="https://github.com/salomonelli/best-resume-ever">
-  <img src="src/assets/logo.png" alt="Markdownify" width="200"></a>
+  <img src="src/assets/logo.jpg" alt="Markdownify" width="200"></a>
   <br>
   GALLERY
   <br>

@@ -1,8 +1,12 @@
 <template>
-<div class="smartphone">
-  <div class="content">   
-    <iframe src="https://suspicious-easley-22b3d4.netlify.com/" style="width:100%;border:none;height:100%" />
-  </div>
+<div>
+    <div class="gallery">    
+    </div>
+    <div class="smartphone">
+    <div class="content">   
+        <iframe src="https://suspicious-easley-22b3d4.netlify.com/" style="width:100%;border:none;height:100%" />
+    </div>
+    </div>
 </div>
 </template>
 
@@ -17,11 +21,14 @@ export default Vue.component(name, getVueOptions(name));
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less" scoped>
 /* The device with borders */
+.gallery {
+  height: 40px;
+}
 .smartphone {
   position: relative;
   width: 360px;
-  height: 640px;
-  margin: auto;
+  height: 640px; 
+  margin: auto;  
   border: 16px black solid;
   border-top-width: 60px;
   border-bottom-width: 60px;

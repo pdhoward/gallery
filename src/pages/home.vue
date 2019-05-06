@@ -15,66 +15,66 @@
       </router-link>
     </div>
     <div class="preview">
-      <router-link v-bind:to="'/resume/left-right'">
+     <router-link v-bind:to="'/resume/pwasample'">
         <div class="preview-wrapper">
-          <img src="../assets/preview/resume-left-right.png" />
-          <span>left-right</span>
+          <img src="../assets/preview/pwasample.png" />
+          <span>Membership</span>
         </div>
       </router-link>
     </div>
     <div class="preview">
-      <router-link v-bind:to="'/resume/oblique'">
+      <router-link v-bind:to="'/resume/pwasample'">
         <div class="preview-wrapper">
-          <img src="../assets/preview/resume-oblique.png" />
-          <span>oblique</span>
+          <img src="../assets/preview/pwasample.png" />
+          <span>Events</span>
         </div>
       </router-link>
     </div>
     <div class="preview">
-      <router-link v-bind:to="'/resume/side-bar'">
+      <router-link v-bind:to="'/resume/pwasample'">
         <div class="preview-wrapper">
-          <img src="../assets/preview/resume-side-bar.png" />
-          <span>side-bar</span>
+          <img src="../assets/preview/pwasample.png" />
+          <span>Custom Content</span>
         </div>
       </router-link>
     </div>
     <div class="preview">
-      <router-link v-bind:to="'/resume/purple'">
+      <router-link v-bind:to="'/resume/pwasample'">
         <div class="preview-wrapper">
-          <img src="../assets/preview/resume-purple.png" />
-          <span>purple</span>
+          <img src="../assets/preview/pwasample.png" />
+          <span>Connections</span>
         </div>
       </router-link>
     </div>
     <div class="preview">
-      <router-link v-bind:to="'/resume/side-bar-rtl'">
+      <router-link v-bind:to="'/resume/pwasample'">
         <div class="preview-wrapper">
-          <img src="../assets/preview/resume-side-bar-rtl.png" />
-          <span>side-bar-rtl</span>
+          <img src="../assets/preview/pwasample.png" />
+          <span>Offers</span>
         </div>
       </router-link>
     </div>
     <div class="preview">
-      <router-link v-bind:to="'/resume/left-right-rtl'">
+     <router-link v-bind:to="'/resume/pwasample'">
         <div class="preview-wrapper">
-          <img src="../assets/preview/resume-left-right-rtl.png" />
-          <span>left-right-rtl</span>
+          <img src="../assets/preview/pwasample.png" />
+          <span>Prototype</span>
         </div>
       </router-link>
     </div>
     <div class="preview">
-      <router-link v-bind:to="'/resume/creative'">
+      <router-link v-bind:to="'/resume/pwasample'">
         <div class="preview-wrapper">
-          <img src="../assets/preview/resume-creative.png" />
-          <span>creative</span>
+          <img src="../assets/preview/pwasample.png" />
+          <span>Design</span>
         </div>
       </router-link>
     </div>
     <div class="preview">
-      <router-link v-bind:to="'/resume/cool'">
+      <router-link v-bind:to="'/resume/pwasample'">
         <div class="preview-wrapper">
-          <img src="../assets/preview/resume-cool.png" />
-          <span>cool</span>
+          <img src="../assets/preview/pwasample.png" />
+          <span>Previews</span>
         </div>
       </router-link>
     </div>

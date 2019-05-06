@@ -23,7 +23,7 @@ export default Vue.component('resume', {
 }
 .page-wrapper {
   overflow-x: hidden;
-  background: #CCCCCC;
+  background: white;
   margin: 0;
   padding: 0;
   -webkit-print-color-adjust: exact;

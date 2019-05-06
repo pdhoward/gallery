@@ -117,6 +117,7 @@ export default Vue.component('resume', {
 }
 
 .previews {
+  background-color: white;
   width: 90%;
   margin-right: auto;
   margin-left: auto;
@@ -127,8 +128,7 @@ export default Vue.component('resume', {
   float: left;
   margin-left: 1.5%;
   margin-right: 1.5%;
-  margin-bottom: 1.5%;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1.5%; 
   height: 252px;
   overflow: hidden;
 }
@@ -149,7 +149,7 @@ export default Vue.component('resume', {
   max-width: 100%;
   font-size: 24px;
   font-weight: 300;
-  color: rgba(0, 0, 0, 0.75);
+  color: blue;
   width: 100%;
   text-align: center;
   display: inline-block;

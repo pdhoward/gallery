@@ -10,8 +10,8 @@
 
 <script>
 import Vue from 'vue';
-import '../resumes/resumes';
-export default Vue.component('resume', {
+import '../webapp/webapps';
+export default Vue.component('webapp', {
     name: 'app'
 });
 </script>

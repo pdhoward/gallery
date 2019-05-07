@@ -1,149 +1,58 @@
-<template>
-<div class="home">
-  <a href="https://github.com/pdhoward/gallery" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
-  <div class="logo">
-    <img src="../assets/logo.png" />
-  </div>
-  <h3 class="title">Gallery: Connections</h3>
-  <div class="previews">
-    <div class="preview">
-      <router-link v-bind:to="'/resume/pwasample'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/pwasample.png" />
-          <span>Mobile Retail</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-     <router-link v-bind:to="'/resume/pwasample'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/pwasample.png" />
-          <span>Membership</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/pwasample'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/pwasample.png" />
-          <span>Events</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/pwasample'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/pwasample.png" />
-          <span>Content</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/pwasample'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/pwasample.png" />
-          <span>Connections</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/pwasample'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/pwasample.png" />
-          <span>Offers</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-     <router-link v-bind:to="'/resume/pwasample'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/pwasample.png" />
-          <span>Prototype</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/pwasample'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/pwasample.png" />
-          <span>Design</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/pwasample'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/pwasample.png" />
-          <span>Previews</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/pwasample'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/pwasample.png" />
-          <span>Dash Board</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/pwasample'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/pwasample.png" />
-          <span>Alerts</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/pwasample'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/pwasample.png" />
-          <span>Chat</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/pwasample'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/pwasample.png" />
-          <span>Logistics</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/pwasample'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/pwasample.png" />
-          <span>Inventory</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/pwasample'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/pwasample.png" />
-          <span>Sales Ops</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/pwasample'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/pwasample.png" />
-          <span>Customer App</span>
-        </div>
-      </router-link>
-    </div>
-  </div>
-</div>
-</template>
 
+<template lang="html">
+   <div style="height: 400px">
+     <div :key="key" v-for="(img, key) in images" >
+          
+            <div class="preview">
+                <router-link v-bind:to="'/resume/pwasample'">
+                    <div class="preview-wrapper">
+                         <img :src="imageDir + key.substr(1)">  
+                        <span>Mobile Retail</span>
+                    </div>
+                </router-link>
+            </div>
+
+     </div>
+    </div>
+ </template>
 <script>
 import Vue from 'vue';
+
+//let arr = require.context("../assets/preview", true, /\.png$/)
+
+let imagesObj
+function requireAll(r) {
+      var imgs = {}
+      r.keys().forEach(key => (imgs[key] = r(key)))
+      imagesObj = imgs
+      console.log(imgs)
+    }
+requireAll(require.context('@/assets/preview', true, /\.png$/));
+
+
 export default Vue.component('resume', {
-    name: 'app'
+    name: 'app',
+  data() {
+    return {
+      imageDir: "src/assets/preview", // you know this already just from directory structure
+      images: imagesObj
+    }
+  },
+    /*
+  mounted() {
+    this.importAll(require.context(this.imageDir, true, /\.png$/))
+  },
+  methods: {
+    importAll(r) {
+      var imgs = {}
+      r.keys().forEach(key => (imgs[key] = r(key)))
+      this.images = imgs
+    }
+  }
+  */
 });
 </script>
+
 
 <style scoped>
 .home {

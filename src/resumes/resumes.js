@@ -8,4 +8,5 @@ import './side-bar-rtl.vue';
 import './left-right-rtl.vue';
 import './creative.vue';
 import './cool.vue';
-import './pwasample.vue';
+import './retail.vue';
+import './member.vue';

@@ -10,7 +10,7 @@
      <div :key="key" v-for="(img, key) in images" >
           
             <div class="preview">
-                <router-link v-bind:to="`{{img.demo}}`">
+                    <router-link v-bind:to="`${img.demo}`">
                     <div class="preview-wrapper">
                          <img :src="imageDir + img.imagesrc">  
                          <span>{{img.title}}</span>

@@ -14,7 +14,7 @@
 import Vue from 'vue';
 import { getVueOptions } from './options';
 
-const name = 'pwasample'; // TODO change name
+const name = 'retail'; // TODO change name
 export default Vue.component(name, getVueOptions(name));
 </script>
 

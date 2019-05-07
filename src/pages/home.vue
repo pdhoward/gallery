@@ -12,8 +12,8 @@
             <div class="preview">
                 <router-link v-bind:to="'/resume/pwasample'">
                     <div class="preview-wrapper">
-                         <img :src="imageDir + img">  
-                        <span>Mobile Retail</span>
+                         <img :src="imageDir + img.imagesrc">  
+                        <span>{{img.title}}</span>
                     </div>
                 </router-link>
             </div>
@@ -25,15 +25,25 @@
 import Vue from 'vue';
 
 let imagesObj
-function requireAll(r) {
-      var imgs = {}
-      r.keys().forEach(key => {
-          imgs[key] = r(key)         
+function requireAll(r, p) {
+      var imgs = []     
+      r.keys().forEach(key => {          
+          let obj = r(key)
+          imgs.push(obj)
         })
-      imagesObj = imgs;      
+      p.keys().forEach(key => {          
+          let obj = p(key)
+          imgs.map((i) => {
+            if (obj.includes(i.image)){
+                i.imagesrc = obj
+            }
+          })         
+        })
+      imagesObj = imgs; 
+      console.log(imagesObj)     
     }
 
-requireAll(require.context('@/assets/preview', true, /\.png$/));
+requireAll(require.context('@/assets/preview', true, /\.json$/), require.context('@/assets/preview', true, /\.png$/));
 
 export default Vue.component('resume', {
     name: 'app',

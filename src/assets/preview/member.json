@@ -2,5 +2,6 @@
     "title": "Members",
     "image": "member",
     "description": "engage your members",
-    "price": "100"
+    "price": "100",
+    "demo": "/resume/pwasample"
 }

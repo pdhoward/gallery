@@ -10,10 +10,10 @@
      <div :key="key" v-for="(img, key) in images" >
           
             <div class="preview">
-                <router-link v-bind:to="'/resume/pwasample'">
+                <router-link v-bind:to="`{{img.demo}}`">
                     <div class="preview-wrapper">
                          <img :src="imageDir + img.imagesrc">  
-                        <span>{{img.title}}</span>
+                         <span>{{img.title}}</span>
                     </div>
                 </router-link>
             </div>
@@ -27,7 +27,7 @@ import Vue from 'vue';
 let imagesObj
 function requireAll(r, p) {
       var imgs = []     
-      r.keys().forEach(key => {          
+      r.keys().forEach(key => {   
           let obj = r(key)
           imgs.push(obj)
         })
@@ -97,7 +97,7 @@ export default Vue.component('resume', {
   margin-left: 1.5%;
   margin-right: 1.5%;
   margin-bottom: 1.5%; 
-  height: 252px;
+  height: 320px;
   overflow: hidden;
 }
 
@@ -116,7 +116,7 @@ export default Vue.component('resume', {
   position: absolute;
   max-width: 100%;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: bold;
   color: blue;
   width: 100%;
   text-align: center;

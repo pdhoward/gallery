@@ -3,5 +3,5 @@
     "image": "member",
     "description": "engage your members",
     "price": "100",
-    "demo": "/webapp/member"
+    "path": "/webapp/member"
 }

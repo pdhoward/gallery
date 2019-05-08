@@ -3,5 +3,5 @@
     "image": "retail",
     "description": "best mobile app on the planet",
     "price": "100",
-    "demo": "/webapp/retail"
+    "path": "/webapp/retail"
 }

@@ -1,8 +1,8 @@
 <template>
 <div class="page-wrapper">
-  <div class="page" :id="$route.params.resumeid">
+  <div class="page" :id="$route.params.webappid">
     <div class="page-inner">
-      <component :is="$route.params.resumeid"></component>
+      <component :is="$route.params.webappid"></component>
     </div>
   </div>
 </div>

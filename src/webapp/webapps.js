@@ -2,3 +2,4 @@
 
 import './retail.vue';
 import './member.vue';
+import './content.vue';

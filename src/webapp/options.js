@@ -1,7 +1,7 @@
 import yaml from 'js-yaml';
 import {
     PERSON
-} from '../../resume/data.yml';
+} from '../../content/data.yml';
 import {
     terms
 } from '../terms';

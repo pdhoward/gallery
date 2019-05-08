@@ -33,9 +33,7 @@ Industry Content Models for Customer Engagement
 git clone https://github.com/pdhoward/gallery
 ```
 
-2. Go to the cloned directory (e.g. `cd best-resume-ever`).
-
-3. Run `npm install`.
+2. Run `npm install`.
 
 4. Customize your resume in the `resume/` directory: edit your data `data.yml` and replace your profile-picture `id.jpg`.
 
@@ -44,7 +42,7 @@ git clone https://github.com/pdhoward/gallery
 6. Export with `npm run export`.
 
 
-All resumes will be exported to the `pdf/` folder.
+All gallery webapps profiles are found in the assets/preview directory
 
 <br>
 

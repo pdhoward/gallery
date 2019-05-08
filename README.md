@@ -35,9 +35,9 @@ git clone https://github.com/pdhoward/gallery
 
 2. Run `npm install`.
 
-4. Customize your resume in the `resume/` directory: edit your data `data.yml` and replace your profile-picture `id.jpg`.
+4. Post new webapp profiles by providing png and json files in the preview directory
 
-5. Preview resumes with `npm run dev`.
+5. Preview webapps with `npm run dev`.
 
 6. Export with `npm run export`.
 

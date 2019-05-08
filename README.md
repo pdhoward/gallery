@@ -18,7 +18,7 @@ Industry Content Models for Customer Engagement
 
 <br>
 <br>
-
+<div align="left">
 
 ## Prerequisite
 

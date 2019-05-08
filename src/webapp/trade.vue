@@ -4,7 +4,7 @@
     </div>
     <div class="smartphone">
     <div class="content">   
-        <iframe src="http://vuejs-news.herokuapp.com/" style="width:100%;border:none;height:100%" />
+        <iframe src="https://stock-trader.netlify.com/" style="width:100%;border:none;height:100%" />
     </div>
     </div>
 </div>
@@ -14,7 +14,7 @@
 import Vue from 'vue';
 import { getVueOptions } from './options';
 
-const name = 'content'; // TODO change name
+const name = 'trade'; // TODO change name
 export default Vue.component(name, getVueOptions(name));
 </script>
 

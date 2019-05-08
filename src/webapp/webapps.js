@@ -2,4 +2,7 @@
 
 import './retail.vue';
 import './member.vue';
-import './content.vue';
+import './mycontent.vue';
+import './identity.vue';
+import './blog.vue';
+import './trade.vue';

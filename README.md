@@ -1,55 +1,36 @@
 <h1 align="center">
   <br>
   <a href="https://github.com/salomonelli/best-resume-ever">
-  <img src="src/assets/logo.png" alt="Markdownify" width="200"></a>
+  <img src="src/assets/logo.png" alt="StrategicMachines" width="200"></a>
   <br>
   GALLERY
   <br>
 </h1>
 
 <div align="center">
-
-[![Travis badge](https://travis-ci.org/salomonelli/best-resume-ever.svg?branch=master)](https://travis-ci.org/salomonelli/best-resume-ever)
-
-</div>
+Industry Content Models for Customer Engagement
 
 <h4 align="center">
-  :necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever!
+  
   <br><br>
-  Made with Vue and LESS.
+  Made with Vue.
 </h4>
 
 <br>
 <br>
 
-<p align="left">
-<img src="src/assets/preview/resume-creative.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-purple.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-side-bar-rtl.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-left-right-rtl.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-material-dark.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-left-right.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-side-bar.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-oblique.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-cool.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-</p>
-
-<br>
-<br>
 
 ## Prerequisite
 
-1. It is required to have NodeJs with version 8.5 or higher
+1. NodeJS with version 8.5 or higher
 
 2. If you do not have installed node.js in your machine then go to [this link](https://nodejs.org/en/download/) in order to install node.
 
 ## How to use
 
-best-resume-ever requires at least node v.8.5.0.
-
 1. Clone this repository.
 ```
-git clone https://github.com/salomonelli/best-resume-ever
+git clone https://github.com/pdhoward/gallery
 ```
 
 2. Go to the cloned directory (e.g. `cd best-resume-ever`).

@@ -11,3 +11,5 @@ import './podcast.vue';
 import './train.vue';
 import './analytics.vue';
 import './sell.vue';
+import './pay.vue';
+import './news.vue';

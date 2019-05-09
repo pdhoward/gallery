@@ -7,3 +7,5 @@ import './identity.vue';
 import './blog.vue';
 import './trade.vue';
 import './deliver.vue';
+import './podcast.vue';
+import './train.vue';

@@ -1,0 +1,7 @@
+{
+    "title": "CRM",
+    "image": "crm",
+    "description": "dashboard for customers, orders products",
+    "price": "100",
+    "path": "/webapp/crm"
+}

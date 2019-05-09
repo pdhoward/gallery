@@ -14,3 +14,4 @@ import './sell.vue';
 import './pay.vue';
 import './news.vue';
 import './music.vue';
+import './crm.vue';

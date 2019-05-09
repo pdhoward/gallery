@@ -9,11 +9,11 @@
     "url": ""
   },
   "scripts": {
-    "build": "node build/build.js",    
-    "dev": "node build/dev-server.js",        
+    "build": "node build/build.js",
+    "dev": "node build/dev-server.js",
     "test:cafe": "testcafe chromium test/",
-    "test:e2e": "concurrently \"npm run dev\" \"npm run test:cafe\" --success first --kill-others --raw",   
-    "test": "npm run test:export && npm run test:preview && npm run test:docs && npm run test:e2e",    
+    "test:e2e": "concurrently \"npm run dev\" \"npm run test:cafe\" --success first --kill-others --raw",
+    "test": "npm run test:export && npm run test:preview && npm run test:docs && npm run test:e2e",
     "lint": "eslint --ext .js,.vue src scripts",
     "lint:fix": "eslint --ext .js,.vue src scripts --fix"
   },
@@ -28,7 +28,8 @@
     "roboto-fontface": "0.10.0",
     "source-sans-pro": "2.20.2",
     "vue": "2.5.17",
-    "vue-router": "3.0.1"
+    "vue-router": "3.0.1",
+    "yarn": "^1.15.2"
   },
   "devDependencies": {
     "@babel/cli": "7.1.0",
@@ -102,5 +103,4 @@
     "last 2 versions",
     "not ie <= 8"
   ]
- 
 }

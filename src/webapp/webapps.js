@@ -9,3 +9,4 @@ import './trade.vue';
 import './deliver.vue';
 import './podcast.vue';
 import './train.vue';
+import './analytics.vue';

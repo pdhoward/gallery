@@ -9,7 +9,7 @@
     "url": ""
   },
   "scripts": {
-    "prod": "node build/build.js",    
+    "build": "node build/build.js",    
     "dev": "node build/dev-server.js",        
     "test:cafe": "testcafe chromium test/",
     "test:e2e": "concurrently \"npm run dev\" \"npm run test:cafe\" --success first --kill-others --raw",   

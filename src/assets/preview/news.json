@@ -1,0 +1,7 @@
+{
+    "title": "News",
+    "image": "news",
+    "description": "Communicate the latest",
+    "price": "100",
+    "path": "/webapp/news"
+}

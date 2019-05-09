@@ -7,8 +7,3 @@ yarn-debug.log*
 yarn-error.log*
 test/unit/coverage
 test/e2e/reports
-selenium-debug.log
-firefox_root/
-GeckoChildCrash*
-electroshot-config.json
-tmpaddon*

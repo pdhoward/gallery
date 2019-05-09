@@ -15,3 +15,4 @@ import './pay.vue';
 import './news.vue';
 import './music.vue';
 import './crm.vue';
+import './event.vue';

@@ -13,3 +13,4 @@ import './analytics.vue';
 import './sell.vue';
 import './pay.vue';
 import './news.vue';
+import './music.vue';

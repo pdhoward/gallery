@@ -1,0 +1,7 @@
+{
+    "title": "Pay",
+    "image": "pay",
+    "description": "payments personalized",
+    "price": "100",
+    "path": "/webapp/pay"
+}
